@@ -1,5 +1,3 @@
-
-
 def computer_guess
   rand(1..6)
 end
