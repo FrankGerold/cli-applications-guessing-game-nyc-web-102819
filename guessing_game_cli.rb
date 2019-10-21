@@ -1,4 +1,3 @@
-def run_guessing_game
 def computer_guess
   rand(1..6)
 end
@@ -16,7 +15,7 @@ def quit
 end
 
 def get_user_input
-  puts "Guess a number between 1 and 6!"
+  #puts "Guess a number between 1 and 6!"
   user = gets.chomp
   if user.to_s == 'exit'
     quit
@@ -27,7 +26,7 @@ def get_user_input
   user
 end
   
-#def run_guessing_game
+def run_guessing_game
   computer = computer_guess
   player = get_user_input
   if player == computer
