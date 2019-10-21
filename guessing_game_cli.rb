@@ -15,7 +15,7 @@ def quit
 end
 
 def get_user_input
-  #puts "Guess a number between 1 and 6!"
+  puts "Guess a number between 1 and 6!"
   user = gets.chomp
   if user.to_s == 'exit'
     quit
