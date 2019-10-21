@@ -1,3 +1,4 @@
+def run_guessing_game
 def computer_guess
   rand(1..6)
 end
@@ -26,7 +27,7 @@ def get_user_input
   user
 end
   
-def run_guessing_game
+#def run_guessing_game
   computer = computer_guess
   player = get_user_input
   if player == computer
