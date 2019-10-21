@@ -19,11 +19,11 @@ def get_user_input
   user = gets.chomp
   if user.to_s == 'exit'
     quit
-  elsif !(1 <= user <= 6)
+  elsif !(1 <= user.to_i <= 6)
     puts "Invalid. Try again!"
     get_user_input
   end
-  user
+  user.to_i
 end
   
 def run_guessing_game
