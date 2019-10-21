@@ -1,5 +1,5 @@
 def computer_guess
-  rand(7)
+  rand(6)+1
 end
 
 def win
