@@ -23,7 +23,7 @@ def get_user_input
   #  puts "Invalid. Try again!"
   #  get_user_input
   end
-  user
+  user.to_i
 end
   
 def run_guessing_game
